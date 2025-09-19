@@ -7,27 +7,33 @@ No instructions or theory, just hands-on practice.
 
 ## 📚 Overview
 
-### Machine Learning
-- Linear regression algorithms and implementations
-- Logistic regression for classification tasks
-- Decision tree models and visualization
-- Unsupervised clustering techniques
+### Machine Learning Projects
+- **Supervised Learning**: Classification and regression techniques
+- **Unsupervised Learning**: Clustering algorithms
+- **Feature Engineering**: Data preprocessing and feature selection
+- **Real-world Applications**:
+  - Credit default prediction
+  - E-commerce user group analysis
+  - Customer emotion recognition in retail
+  - Titanic survival prediction
+  - Flower category classification
+  - Real-time product recommendations
 
-### Deep Learning
-- Neural network architectures
-- Convolutional Neural Networks (CNNs)
-- Recurrent Neural Networks (RNNs/LSTMs)
-- Advanced deep learning techniques
+### Deep Learning with MindSpore
+- **MindSpore Fundamentals**: Basic operations and model building
+- **Computer Vision Projects**:
+  - MNIST handwritten digit recognition
+  - ResNet50 image classification
+  - MobileNetV2 image classification
+  - Flower image classification
+- **Natural Language Processing**:
+  - TextCNN sentiment analysis
 
-### AI Development Frameworks
-- Model implementation with TensorFlow/Keras
-- PyTorch implementations
-- Model deployment and serving
-- Production-ready AI applications
 
----
-
-All materials are provided as clearly named Jupyter notebooks or Python scripts.
+### Huawei AI Framework
+- MindSpore implementation and usage
+- Model training with Huawei's AI framework
+- Dataset preprocessing with MindSpore tools.
 
 ---
 
