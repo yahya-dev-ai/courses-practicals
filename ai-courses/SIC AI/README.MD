@@ -117,6 +117,13 @@ This project represents the culmination of learning in the **Samsung Innovation 
 
 ## 👥 Team & Acknowledgments
 
+### Team Roles & Contributions
+
+- **Project Management & Team Lead**: Yahya Aldawsari
+- **Data Preprocessing**: Sarah Alhamdan & Bashaer Alhammad  
+- **Modeling & Training**: Yahya Aldawsari & Rana Albouqmi
+- **Evaluation**: Amjad Alnasser & Ruba Bin Mulayh
+
 Developed as part of the **Samsung Innovation Campus** AI certification program in partnership with **MISK Foundation**, showcasing practical AI/ML skills in energy management and sustainability.
 
 ---
