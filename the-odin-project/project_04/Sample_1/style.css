@@ -1,0 +1,14 @@
+.parent
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    height: 300px;
+    background-color: khaki;
+}
+.child 
+{
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+}

@@ -8,6 +8,7 @@ _All materials here are practical exercises and projects completed as part of my
 ## 🗂️ Folder Structure
 
 - `ai-courses/` &mdash; 🧠 AI-related coursework and practicals
+- `the-odin-project/` &mdash; 🌱 Web foundations (HTML/CSS/JS) from The Odin Project & MDN (2021–2022)
 
 ---
 

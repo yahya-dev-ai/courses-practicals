@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS data types: String</title>
+  </head>
+  <body>
+    <script>
+      const stringo = "Learning JavaScript string methods.";
+      console.log(stringo);
+
+      const sglDbl = 'Would you eat a "fish supper"?';
+      const dblSgl = "I'm learning to code";
+      console.log(sglDbl);
+      console.log(dblSgl);
+
+      const bigMouth = "Here's another example sentence.";
+      console.log(bigMouth);
+
+      const name = "Yahya";
+      const greetings = `Hello, ${name}`;
+      console.log(greetings);
+
+      const name2 = 'Yahya';
+      const number = 242;
+      console.log(`${name} ${number}`);
+
+      const song = 'Don\'t Stop Believing';
+      const score = 14;
+      const highestscore = 10;
+      const output = `I like the song ${song}.\nI gave it a score of ${score/highestscore * 100}`;
+      console.log(output);
+
+      let txt = 'JAVASCRIPT STRINGS';
+      let txtLength = txt.length;
+      console.log(`txt length = ${txtLength}`);
+      console.log(txt.slice(0,2));
+      console.log(txt.substring(2,6));
+      console.log(txt.substr(-9)); //accepts minus and counts from right to left
+      console.log(txt.toLowerCase());
+
+      let l1 = 'Hello';
+      let l2 = l1.concat(' World');
+      console.log(l2);
+
+      let whitespace = '    Hello  ';
+      console.log(whitespace.trim());
+
+      let hello = 'hello';
+      document.body.innerHTML = hello.charAt(0);
+      //document.body.innerHTML = hello.charCodeAt(0);
+    </script>
+
+    <!-- <button>Press me</button>
+    <script>
+      const button = document.querySelector("button");
+
+      function greet() {
+        const name = prompt("What is your name?");
+        alert(`Hello, ${name}, nice to see you!`);
+      }
+
+      button.addEventListener("click", greet);
+    </script> -->
+
+
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS conditions</title>
+  </head>
+  <body>
+    <script>
+      //checking range
+      // let num = prompt("Enter a number");
+      // if(num > 14 && num < 90)
+      // {
+      //     alert("true");
+      // }
+      // else{
+      //     alert("false")
+      // }
+      // if(num < 14 && num > 90)
+      // {
+      //     alert("true");
+      // }
+      // else{
+      //     alert("false")
+      // }
+
+      //Checking Login
+      let SomeOne = prompt("Who's there?");
+    if(SomeOne === "Admin")
+    {
+        let Pass = prompt("Enter password");
+        if(Pass === "TheMaster")
+        alert("Wellcome");
+        else if (Pass === "Cancel")
+        alert("Canceled")
+        else
+        alert("Incorrect password. Access denied.")
+    }
+    else if(SomeOne === "Other")
+    alert("Access denied.")
+    else
+    alert("You're not elegible")
+      //   switch (SomeOne) {
+    //     case "Admin":
+    //       switch (prompt("Password?")) {
+    //         case "TheMaster":
+    //           alert("Wellcome");
+    //           break;
+    //         default:
+    //           alert("Access denied.");
+    //           break;
+    //       }
+    //       break;
+    //     case "Other":
+    //       alert("I don't know u");
+    //       break;
+    //     default:
+    //       alert("Cancelled");
+    //       break;
+    //   }
+    </script>
+  </body>
+</html>
